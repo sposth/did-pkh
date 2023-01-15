@@ -61,7 +61,7 @@ paths" for DIDs deterministically generated from existing keypairs.  Namely:
    according to the [CAIP-10] standard before generating, to prevent a did:pkh
    being presented as valid that would not be on its corresponding blockchain.
    **No further validation** is assumed or provided in the reference
-   implemention, but implementers may still choose to gate generation to
+   implementation, but implementers may still choose to gate generation to
    on-chain accounts or balance-holding accounts as per the requirements of
    their specific use case.
 4. As this method is designed for interoperability with blockchain web wallets,
